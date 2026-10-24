@@ -1,0 +1,25 @@
+{
+  "name": "trustchain-blockchain",
+  "version": "1.0.0",
+  "description": "Person 3 Blockchain & Smart Contract Audit Layer for TrustChain Zero Trust Network Manager",
+  "main": "index.js",
+  "scripts": {
+    "node": "hardhat node",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "keywords": [
+    "zero-trust",
+    "blockchain",
+    "audit",
+    "ethereum",
+    "solidity"
+  ],
+  "author": "Person 3",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
